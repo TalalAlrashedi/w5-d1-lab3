@@ -1,8 +1,16 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .cat-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   gap: 2%;
 }
 
