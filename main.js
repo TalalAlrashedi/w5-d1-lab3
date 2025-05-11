@@ -10,10 +10,12 @@ let statusCode = [];
 
 resCodes.forEach((code) => {
   let divImage = document.createElement("div");
+
   let image = document.createElement("img");
+  image.classList.add("cat-container");
   image.src = `https://http.cat/${code}`;
-  image.width = "300"
-  image.height = "300"
+  image.width = "300";
+  image.height = "300";
   divImage.appendChild(image);
   container.appendChild(divImage);
 });
